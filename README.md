@@ -1,4 +1,3 @@
-# Task_1
 ## Github library to interact with it's public API
 
 Requirements:
