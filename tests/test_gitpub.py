@@ -1,23 +1,23 @@
 import pytest
-import github
+from ..core import gitpub
 
 
 def test_load_gh_profile():
     """
-    Tests github.Profile.load_gh_profile() by loading details of the user `demfier`
+    Tests gitpub.Profile.load_gh_profile() by loading details of the user `demfier`
     ------------------------------------------------------------------------------
     Parameters: None
     """
 
     test_username = 'demfier'
     # define the validation Profile
-    correct = github.Profile(username="demfier", name="Gaurav",
+    correct = gitpub.Profile(username="demfier", name="Gaurav",
                              location="Kharagpur, West Bengal",
-                             email="sahu.gaurav719@gmail.com", followers_count=10,
+                             email=None, followers_count=10,
                              repos_url="https://api.github.com/users/Demfier/repos",
                              public_repo_count=14)
 
-    profile = github.Profile()
+    profile = gitpub.Profile()
     # load github profile of the user
     profile.load_gh_profile('demfier')
 
@@ -33,7 +33,7 @@ def test_load_gh_profile():
 
 def test_get_public_repos():
     """
-    Tests github.Profile.get_public_repos() by loading public repository details
+    Tests gitpub.Profile.get_public_repos() by loading public repository details
     of the user `demfier`
     ----------------------------------------------------------------------------
     Parameters: None
@@ -41,7 +41,7 @@ def test_get_public_repos():
 
     test_username = 'demfier'
     # define the validation Profile
-    correct = github.Profile(username="demfier", name="Gaurav",
+    correct = gitpub.Profile(username="demfier", name="Gaurav",
                              location="Kharagpur, West Bengal",
                              email="sahu.gaurav719@gmail.com", followers_count=10,
                              repos_url="https://api.github.com/users/Demfier/repos",
@@ -50,7 +50,7 @@ def test_get_public_repos():
     # get public repos for the validation Profile
     correct.get_public_repos()
 
-    profile = github.Profile()
+    profile = gitpub.Profile()
     profile.load_gh_profile('demfier')
     profile.get_public_repos()
 

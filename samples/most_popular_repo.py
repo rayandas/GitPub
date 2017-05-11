@@ -1,4 +1,4 @@
-import github
+from ..core import gitpub
 
 
 def sort_repos(repo_list):
@@ -6,12 +6,12 @@ def sort_repos(repo_list):
     Sort the repo_list using quicksort
     Parameters
     ----------------------------------
-    repo_list : [github.Repository()]
+    repo_list : [gitpub.Repository()]
         Array of friends (loaded from the input file)
     =================================================
     Returns:
     -----------------------------------
-    repo_list : [github.Repository()]
+    repo_list : [gitpub.Repository()]
     List of repositories sorted by number of stars
     """
     if repo_list == []:
@@ -34,11 +34,11 @@ def main(username='defunkt'):
     ==================================
     Returns
     ---------------------------------------------------
-    sorted_repos : [github.Repository()]
+    sorted_repos : [gitpub.Repository()]
         Array of repositories sorted by number of stars
     """
 
-    profile = github.Profile()
+    profile = gitpub.Profile()
     profile.load_gh_profile(username)
     profile.get_public_repos()
 
