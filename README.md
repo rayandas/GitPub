@@ -15,7 +15,7 @@ Type the following commands in python shell:
 import gitpub
 
 username = 'demfier'
-profile = github.Profile()
+profile = gitpub.Profile()
 profile.load_gh_profile(username)  # loads profile details of `username`
 profile.get_public_repos()  # loads all the public repo details of `username`
 ```
