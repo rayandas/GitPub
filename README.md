@@ -12,7 +12,7 @@ How to use:
 Type the following commands in python shell:
 
 ```python
-import github
+import gitpub
 
 username = 'demfier'
 profile = github.Profile()
@@ -20,15 +20,4 @@ profile.load_gh_profile(username)  # loads profile details of `username`
 profile.get_public_repos()  # loads all the public repo details of `username`
 ```
 
-It will look something like this:<br>
-![demo image_1](imgs/load_profile_and_repo.png)
 * __Run Tests__: Just run the command<code>py.test -v</code> to see the test results.
-
-
-
-## Bonus:
-The Bonus task given was to get the most popular repos of user 'defunkt' by stargazers count.<br>
-Type <code>python most_popular_repo.py</code> in the terminal.<br>
-
-Here is the output expected you are expected to see (of course assuming that there is no change in 'defunkt' stats)<br>
-![defunkt](imgs/defunkt.png)<br>
