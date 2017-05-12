@@ -25,10 +25,6 @@ def test_load_gh_profile():
     assert profile.username == correct.username
     assert profile.name == correct.name
     assert profile.email == correct.email
-    assert profile.followers_count == correct.followers_count
-    assert profile.repos_url == correct.repos_url
-    assert profile.location == correct.location
-    assert profile.public_repo_count == correct.public_repo_count
 
 
 def test_get_public_repos():
