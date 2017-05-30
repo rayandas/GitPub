@@ -1,4 +1,4 @@
-from ..core import gitpub
+from ..gitpub import gitpub
 
 
 def sort_repos(repo_list):

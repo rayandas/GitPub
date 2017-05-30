@@ -1,5 +1,5 @@
 import pytest
-from ..core import gitpub
+from ..gitpub import gitpub
 
 
 def test_load_gh_profile():
