@@ -1,4 +1,4 @@
-##[WIP] Python library to interact with github's public API
+## [WIP] Python library to interact with github's public API
 
 Requirements:
 <br>------------------
