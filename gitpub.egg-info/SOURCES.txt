@@ -1,6 +1,7 @@
 MANIFEST.in
 README.rst
 setup.cfg
+setup.py
 gitpub/__init__.py
 gitpub/gitpub.py
 gitpub.egg-info/PKG-INFO
