@@ -1,4 +1,4 @@
-## Github library to interact with it's public API
+##[WIP] Python library to interact with github's public API
 
 Requirements:
 <br>------------------
@@ -24,5 +24,5 @@ profile.get_public_repos()  # loads all the public repo details of `username`
 
 
 ## To Do:
-[ ] Integrate Github's API v4
-[ ] Use Github API's auth method for sending requests
+- [ ] Integrate Github's API v4
+- [ ] Use Github API's auth method for sending requests
