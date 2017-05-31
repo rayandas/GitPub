@@ -21,3 +21,8 @@ profile.get_public_repos()  # loads all the public repo details of `username`
 ```
 
 * __Run Tests__: Just run the command<code>py.test -v</code> to see the test results.
+
+
+## To Do:
+[ ] Integrate Github's API v4
+[ ] Use Github API's auth method for sending requests
