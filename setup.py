@@ -18,7 +18,6 @@ setup(
     description="a module to interact with Github's API",
     long_description=long_description,
     url='https://github.com/demfier/gitpub',
-    download_url='https://github.com/Demfier/GitPub/blob/master/dist/gitpub-1.0.tar.gz',
 
     author='Gaurav Sahu',
     author_email='sahu.gaurav719@googlemail.com',
