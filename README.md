@@ -1,4 +1,4 @@
-## [WIP] Python library to interact with github's public API
+## Python library to interact with github's public API
 
 Requirements:
 <br>------------------
@@ -22,7 +22,8 @@ profile.get_public_repos()  # loads all the public repo details of `username`
 
 * __Run Tests__: Just run the command<code>py.test -v</code> to see the test results.
 
+# Contributing
+Want to contribute? Awesome, have a look at [contribution instructions](CONTRIBUTING.md).
 
-## To Do:
-- [ ] Integrate Github's API v4
-- [ ] Use Github API's auth method for sending requests
+# LICENSE
+The MIT License (MIT) 2017 - [Gaurav Sahu](https://github.com/demfier). Please have a look at the LICENSE.txt for more details.
