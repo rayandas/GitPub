@@ -1,4 +1,5 @@
-## Python library to interact with github's public API
+## GitPub - Python library to interact with github's public API
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Requirements:
 <br>------------------
