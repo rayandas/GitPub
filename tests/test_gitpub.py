@@ -13,9 +13,9 @@ def test_load_gh_profile():
     # define the validation Profile
     correct = gitpub.Profile(username="demfier", name="Gaurav",
                              location="Kharagpur, West Bengal",
-                             email=None, followers_count=10,
+                             email=None, followers_count=14,
                              repos_url="https://api.github.com/users/Demfier/repos",
-                             public_repo_count=14)
+                             public_repo_count=40)
 
     profile = gitpub.Profile()
     # load github profile of the user
@@ -39,9 +39,9 @@ def test_get_public_repos():
     # define the validation Profile
     correct = gitpub.Profile(username="demfier", name="Gaurav",
                              location="Kharagpur, West Bengal",
-                             email="sahu.gaurav719@gmail.com", followers_count=10,
+                             email="sahu.gaurav719@gmail.com", followers_count=14,
                              repos_url="https://api.github.com/users/Demfier/repos",
-                             public_repo_count=14)
+                             public_repo_count=40)
 
     # get public repos for the validation Profile
     correct.get_public_repos()
