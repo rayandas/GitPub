@@ -1,3 +1,4 @@
 *.pyc
 *.cache
 *.yml
+*.dummy_file_extension
