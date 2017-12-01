@@ -5,5 +5,5 @@ python:
 script:
   - cd tests && py.test -v
 install:
-  - pip install pytest --user
-  - pip install requests --user
+  - pip install pytest
+  - pip install requests
