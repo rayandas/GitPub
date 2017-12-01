@@ -1,6 +1,9 @@
-language: python3.4
+language: python
+python:
+  # - "3.4"
+  - "2.7"
 script:
   - cd tests && py.test -v
 install:
-  - pip install pytest
-  - pip install requests
+  - pip install pytest --user
+  - pip install requests --user
