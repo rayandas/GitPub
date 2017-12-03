@@ -30,13 +30,13 @@ profile.load_gh_profile(username)  # loads profile details of `username`
 profile.get_public_repos()  # loads all the public repo details of `username`
 ```
 
-<i>Step 3:</i>__Run Tests__: Just run the command<code>py.test -v</code> to see the test results.
+*Step 3:* __Run Tests__ : Just run the command `py.test -v` to see the test results.
    and you're done!!
 
 
 
 ## Contribution
-Want to contribute? Awesome, we always wanted a larger development base.Jump into  [contribution instructions](CONTRIBUTING.md) for further instructions.
+Want to contribute? Awesome, we always wanted a larger development base. Jump into  [contribution instructions](CONTRIBUTING.md) for further instructions.
 
 # LICENSE
 The MIT License (MIT) 2017 - [Gaurav Sahu](https://github.com/demfier). Please have a look at the [LICENSE.txt](https://github.com/Demfier/GitPub/blob/master/LICENSE.txt) for more details.
