@@ -5,7 +5,7 @@
 ## Getting started!
 Follow up these instructions if you want to see it in action up and running on your machine.
 
-### **System Requirements**:
+### System Requirements:
 
 
 * [pytest](http://doc.pytest.org/en/latest/): Uses __pytest__ as the unit-testing framework. Install using <code>pip install pytest</code>.
@@ -14,7 +14,7 @@ Follow up these instructions if you want to see it in action up and running on y
 
 
 
-### **Few Final Steps**:
+### Few Final Steps:
 
 
 *Step 1:* __Load Github Profile & Public Repo details of a user__: Loading a github profile just needs a _username_ to startwith. Here is a small demo with _username_ [__demfier__](https://github.com/Demfier).<br>
