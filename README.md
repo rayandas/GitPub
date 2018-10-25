@@ -7,15 +7,10 @@ Follow up these instructions if you want to see it in action up and running on y
 
 ### System Requirements:
 
-
 * [pytest](http://doc.pytest.org/en/latest/): Uses __pytest__ as the unit-testing framework. Install using <code>pip install pytest</code>.
 * [requests](https://pypi.python.org/pypi/requests/2.11.1): Uses __requests__ for interacting with the various api urls.
 
-
-
-
 ### Few Final Steps:
-
 
 *Step 1:* __Load Github Profile & Public Repo details of a user__: Loading a github profile just needs a _username_ to startwith. Here is a small demo with _username_ [__demfier__](https://github.com/Demfier).<br>
 
@@ -32,7 +27,6 @@ profile.get_public_repos()  # loads all the public repo details of `username`
 
 *Step 3:* __Run Tests__ : Just run the command `py.test -v` to see the test results.
    and you're done!!
-
 
 
 ## Contribution
